@@ -16,7 +16,8 @@
         "test": "nyc ava test/index.js"
     },
     "files": [
-        "index.js"
+        "index.js",
+        "lib/"
     ],
     "keywords": [
         ""
