@@ -1,6 +1,6 @@
 {
     "name": "node-warp10",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Simple Node.js client to insert JSON object to Warp10 platform",
     "license": "MIT",
     "repository": "sguilly/node-warp10",
