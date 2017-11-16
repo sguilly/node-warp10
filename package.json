@@ -1,0 +1,38 @@
+{
+    "name": "node-warp10",
+    "version": "0.0.0",
+    "description": "Simple Node.js client to insert JSON object to Warp10 platform",
+    "license": "MIT",
+    "repository": "sguilly/node-warp10",
+    "author": {
+        "name": "Stéphane GUILLY",
+        "email": "stephane.guilly@gmail.com",
+        "url": "github.com/sguilly"
+    },
+    "engines": {
+        "node": ">=6"
+    },
+    "scripts": {
+        "test": "nyc ava test/index.js"
+    },
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+        ""
+    ],
+    "dependencies": {},
+    "devDependencies": {
+        "ava": "^0.20.0",
+        "codecov": "^2.2.0",
+        "nock": "^9.1.0",
+        "nyc": "^11.0.0",
+        "xo": "^0.18.2"
+    },
+    "nyc": {
+        "reporter": [
+            "lcov",
+            "text"
+        ]
+    }
+}
