@@ -21,7 +21,8 @@ const warp10 = require('node-warp10');
 var decoder = {
     ts: 'StartTimestamp',
     lat: 'Position.Lat',
-    long: 'Position.Long',
+	long: 'Position.Long',
+	tags: ['DriverNameId', 'VehicleId'],
     prefixValue: 'test.',
     values: { 'tacho': 'ATSParameter', 'mileage': 'Mileage', 'speed.avg': 'AvgSpeed', 'duration': 'duration' }
 }
